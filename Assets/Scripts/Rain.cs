@@ -7,6 +7,7 @@ public class Rain : MonoBehaviour
 
     ParticleSystem system;
     ParticleSystem.EmissionModule emission;
+    ParticleSystem.SizeOverLifetimeModule size;
 
     bool isRaining = false;
     int rainType = -1;
@@ -105,6 +106,11 @@ public class Rain : MonoBehaviour
             yield return null;
         }
 
+    }
+
+    void OnParticleCollision(GameObject other) {
+        Debug.Log("It collided");
+        //other.GetComponent<ParticleSystem>().sizeOverLifetime.x = 1f;
     }
 
 }
