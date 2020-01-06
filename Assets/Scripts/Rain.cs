@@ -12,6 +12,12 @@ public class Rain : MonoBehaviour
     bool isRaining = false;
     int rainType = -1;
 
+    //in seconds how short could the longest rainfall be or delay between rainfalls
+    int minRainIntevals = 30;
+    float currentRainTime = 0;
+
+    RainIntensity currentRainIntensity;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +28,19 @@ public class Rain : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
-        if(Input.GetKeyDown(KeyCode.Space)) {
-            RainIntensity intensity = (RainIntensity)Random.Range(0,5);
-            StartCoroutine("StartRain", intensity);
+        currentRainTime += (Time.deltaTime);
+
+
+        if(!isRaining) {
+            int randNum2 = Random.Range(0,1000);
+                if(randNum2 == 1 && currentRainTime >= minRainIntevals) {
+                    currentRainTime = 0;
+                    RainIntensity intensity = (RainIntensity)Random.Range(0,5);
+                    StartCoroutine("StartRain", intensity);
+                }
         }
 
         if(isRaining) {
@@ -82,12 +95,23 @@ public class Rain : MonoBehaviour
                     }
                 }
             }
+
+            int randNum3 = Random.Range(0,1000);
+                if(randNum3 == 1 && currentRainTime >= minRainIntevals) {
+                    currentRainTime = 0;
+                    RainIntensity intensity = (RainIntensity)Random.Range(0,5);
+                    StartCoroutine("StopRain", intensity);
+                }
         }
         
     }
 
     IEnumerator StartRain( RainIntensity intensity ) {
-       
+
+        Debug.Log("It has started raining: " + intensity.ToString());
+
+        currentRainIntensity = intensity;
+
         string audioName = "";
 
         if ((int)intensity <=1) { audioName = "LightRain"; }
@@ -108,9 +132,29 @@ public class Rain : MonoBehaviour
 
     }
 
-    void OnParticleCollision(GameObject other) {
-        Debug.Log("It collided");
-        //other.GetComponent<ParticleSystem>().sizeOverLifetime.x = 1f;
+    IEnumerator StopRain() {
+        
+        Debug.Log("It has stopped raining");
+
+
+        string audioName = "";
+
+        if ((int)currentRainIntensity <=1) { audioName = "LightRain"; }
+        else if ((int)currentRainIntensity >= 3) { audioName = "HeavyRain"; }
+        else { audioName = "MediumRain"; }
+
+        isRaining = false;
+        rainType = (int)currentRainIntensity;
+        
+        //stop sound (fading out)
+        FindObjectOfType<AudioManager>().StartCoroutine("FadeStopPlaying",audioName);
+
+        for(float f = ((int)currentRainIntensity*100 + 50); f >= 0f; f-=0.5f) {
+
+            emission.rateOverTime = f;
+            yield return null;
+        }
+
     }
 
 }
