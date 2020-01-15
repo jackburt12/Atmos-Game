@@ -47,17 +47,36 @@
   <ItemGroup>
      <Compile Include="Assets\Audio\AudioManager.cs" />
      <Compile Include="Assets\Audio\Sound.cs" />
-     <Compile Include="Assets\LightManager.cs" />
-     <Compile Include="Assets\Scripts\Rain.cs" />
-     <Compile Include="Assets\Scripts\Wind.cs" />
+     <Compile Include="Assets\Scripts\Environment\Camera\Background.cs" />
+     <Compile Include="Assets\Scripts\Environment\Lighting\LightManager.cs" />
+     <Compile Include="Assets\Scripts\Environment\Objects\TrashCan.cs" />
+     <Compile Include="Assets\Scripts\Environment\Weather\Rain.cs" />
+     <Compile Include="Assets\Scripts\Environment\Weather\Wind.cs" />
+     <Compile Include="Assets\Scripts\Player\CharacterController2D.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
+ <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
+ <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -68,47 +87,38 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
- <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
- <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Postprocessing.Editor">
  <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
  <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Postprocessing.Runtime">
  <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
  <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
  <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>/home/jack/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

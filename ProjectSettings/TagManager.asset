@@ -14,11 +14,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Player
+  - Obstacle
+  - Foreground
+  - Ground
   - 
   - 
   - 
