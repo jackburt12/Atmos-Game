@@ -1,18 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 public class LightManager : MonoBehaviour
 {
 
     public static LightManager instance;
 
-    
-
-    //How many times faster in game passes than real time.
-    int timeScale = 1000;
-
-    int currentMinutes, currentHours;
-    float currentSeconds;
+    GameTime gameTime;
 
     Color globalNight = new Color(0.7f, 0.75f, 1f, 1f);
     Color globalDay = new Color(1f,1f,1f,1f);
@@ -48,9 +44,7 @@ public class LightManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
-        currentSeconds = 0;
-        currentMinutes = 0;
-        currentHours = 0;
+        gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
 
         globalLight = gameObject.GetComponent<UnityEngine.Experimental.Rendering.LWRP.Light2D>();
         lights = GameObject.FindGameObjectsWithTag("NightLight");
@@ -67,16 +61,14 @@ public class LightManager : MonoBehaviour
     void Update()
     {
 
-        UpdateTime();
-
         if(night) {
-            if(currentHours >= dayTime && currentHours < nightTime) {
+            if(gameTime.currentHours >= dayTime && gameTime.currentHours < nightTime) {
                 Debug.Log("It's daytime.");
                 night = false;
                 StartCoroutine("StartDaytime");
             }
         } else {
-            if(currentHours >= nightTime || currentHours < dayTime) {
+            if(gameTime.currentHours >= nightTime || gameTime.currentHours < dayTime) {
                 Debug.Log("It's nighttime.");
                 night=true;
                 StartCoroutine("StartNighttime");
@@ -84,28 +76,6 @@ public class LightManager : MonoBehaviour
         }
         
         
-
-    }
-
-    void UpdateTime() {
-
-        currentSeconds += (Time.deltaTime * timeScale);
-
-        if (currentSeconds >= 60) {
-            currentMinutes += 1;
-            currentSeconds -= 60;
-
-        }
-
-        if (currentMinutes > 59) {
-            currentHours += 1;
-            currentMinutes -= 60;
-            Debug.Log(PrintTime());
-        }
-
-        if (currentHours > 23) {
-            currentHours = 0;
-        }
 
     }
 
@@ -147,12 +117,6 @@ public class LightManager : MonoBehaviour
 
             yield return null;
         }
-
-    }
-
-    string PrintTime() {
-
-        return currentHours.ToString("00") + ":" + currentMinutes.ToString("00");
 
     }
 

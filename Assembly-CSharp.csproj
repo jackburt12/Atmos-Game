@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Audio\AudioManager.cs" />
      <Compile Include="Assets\Audio\Sound.cs" />
+     <Compile Include="Assets\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Environment\Camera\Background.cs" />
      <Compile Include="Assets\Scripts\Environment\Lighting\LightManager.cs" />
      <Compile Include="Assets\Scripts\Environment\Objects\TrashCan.cs" />
@@ -54,6 +55,7 @@
      <Compile Include="Assets\Scripts\Environment\Weather\Wind.cs" />
      <Compile Include="Assets\Scripts\Player\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Systems\GameTime.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/jack/Repositories/Atmos/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

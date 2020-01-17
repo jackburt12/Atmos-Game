@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Rain : MonoBehaviour
 {
@@ -17,10 +18,15 @@ public class Rain : MonoBehaviour
 
     RainIntensity currentRainIntensity;
 
+    GameObject weatherUI;
+
     // Start is called before the first frame update
     void Start()
     {
         systems = gameObject.GetComponentsInChildren<ParticleSystem>();
+
+        weatherUI = GameObject.Find("Weather");
+
     }
 
     // Update is called once per frame
@@ -106,6 +112,8 @@ public class Rain : MonoBehaviour
 
         Debug.Log("It has started raining: " + intensity.ToString());
 
+        weatherUI.GetComponent<Text>().text = "Weather: " + intensity.ToString() + " RAIN";
+
         currentRainIntensity = intensity;
 
         string audioName = "";
@@ -133,8 +141,7 @@ public class Rain : MonoBehaviour
 
     IEnumerator StopRain() {
         
-        Debug.Log("It has stopped raining");
-
+        weatherUI.GetComponent<Text>().text = "Weather: CLEAR";
 
         string audioName = "";
 
