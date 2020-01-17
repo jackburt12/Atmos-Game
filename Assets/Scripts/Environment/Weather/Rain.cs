@@ -5,9 +5,8 @@ using UnityEngine;
 public class Rain : MonoBehaviour
 {
 
-    ParticleSystem system;
-    ParticleSystem.EmissionModule emission;
-    ParticleSystem.SizeOverLifetimeModule size;
+    ParticleSystem[] systems;
+    ParticleSystem.EmissionModule[] emissions;
 
     bool isRaining = false;
     int rainType = -1;
@@ -21,10 +20,7 @@ public class Rain : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        system = gameObject.GetComponent<ParticleSystem>();
-        emission = system.emission;
-
+        systems = gameObject.GetComponentsInChildren<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -124,9 +120,12 @@ public class Rain : MonoBehaviour
         //play sound (fading in)
         FindObjectOfType<AudioManager>().StartCoroutine("FadePlay",audioName);
 
-        for(float f = 0; f < ((int)intensity*100 + 50); f+=0.5f) {
+        for(float f = 0; f < ((int)intensity*100 + 50)/4; f+=0.25f) {
 
-            emission.rateOverTime = f;
+            foreach (ParticleSystem system in systems) {
+                ParticleSystem.EmissionModule emission = system.emission;
+                emission.rateOverTime = f;
+            }
             yield return null;
         }
 
@@ -149,9 +148,12 @@ public class Rain : MonoBehaviour
         //stop sound (fading out)
         FindObjectOfType<AudioManager>().StartCoroutine("FadeStopPlaying",audioName);
 
-        for(float f = ((int)currentRainIntensity*100 + 50); f >= 0f; f-=0.5f) {
+        for(float f = ((int)currentRainIntensity*100 + 50)/4; f >= 0f; f-=0.25f) {
 
-            emission.rateOverTime = f;
+            foreach (ParticleSystem system in systems) {
+                ParticleSystem.EmissionModule emission = system.emission;
+                emission.rateOverTime = f;
+            }
             yield return null;
         }
 

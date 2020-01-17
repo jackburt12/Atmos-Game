@@ -151,11 +151,7 @@ GameObject:
   - component: {fileID: 3381696841526863057}
   - component: {fileID: 9058992734203676748}
   - component: {fileID: 3259523145889520173}
-  - component: {fileID: 6631154779786788880}
-  - component: {fileID: 5159772797503398185}
-  - component: {fileID: 1198594151}
   - component: {fileID: 1198594154}
-  - component: {fileID: 1198594155}
   m_Layer: 8
   m_Name: Lamp Post
   m_TagString: Untagged
@@ -246,62 +242,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 1.1020005, y: 2.9929242}
-  - {x: 1.3797365, y: 3.006487}
---- !u!68 &6631154779786788880
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6155617711536809066}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -1.8006077, y: 2.9967496}
-  - {x: -1.3427536, y: 2.990885}
---- !u!68 &5159772797503398185
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6155617711536809066}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 1.661663, y: 2.9950984}
-  - {x: 1.8993688, y: 2.9879866}
---- !u!68 &1198594151
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6155617711536809066}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 1.1020005, y: 2.9929242}
-  - {x: 1.3797365, y: 3.006487}
+  - {x: 1.092304, y: 2.9929242}
+  - {x: 2.0003245, y: 2.99679}
 --- !u!68 &1198594154
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -318,26 +260,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1.8006077, y: 2.9967496}
-  - {x: -1.3427536, y: 2.990885}
---- !u!68 &1198594155
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6155617711536809066}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 1.661663, y: 2.9950984}
-  - {x: 1.8993688, y: 2.9879866}
+  - {x: -2.0042377, y: 2.9967499}
+  - {x: -1.0906403, y: 3.0005817}
 --- !u!1 &7225663965693786191
 GameObject:
   m_ObjectHideFlags: 0
