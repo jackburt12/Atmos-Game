@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pedestiran-4
+  m_Controller: {fileID: 9100000, guid: 88becab4db93a66f9a06c1dbf4aa4092, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ff9fad50ed628c8cc868cb0cc507cec1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 83899fa17319d298bacc475fe2f4c8f8, type: 2}
