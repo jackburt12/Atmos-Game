@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -11,10 +12,17 @@ public class PauseMenu : MonoBehaviour
 
     private GameTime gameTime;
 
+    private AudioManager audioManager;
+
+    public Slider masterVolumeSlider, soundVolumeSlider, musicVolumeSlider;
+
     // Start is called before the first frame update
     void Start()
     {
         gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
+
+
     }
 
     // Update is called once per frame
@@ -52,9 +60,31 @@ public class PauseMenu : MonoBehaviour
         pauseMenu.SetActive(true);
     }
 
-    void Resume() {
+    public void Resume() {
         isPaused = false;
         gameTime.paused = false;
         pauseMenu.SetActive(false);
+    }
+
+    public void MasterVolume() {
+
+        audioManager.masterVolume = (int)masterVolumeSlider.value;
+        audioManager.UpdateVolume();
+
+    }
+
+
+    public void SoundVolume() {
+
+        audioManager.soundVolume = (int)soundVolumeSlider.value;
+        audioManager.UpdateVolume();
+
+    }
+
+    public void MusicVolume() {
+
+        audioManager.musicVolume = (int)musicVolumeSlider.value;
+        audioManager.UpdateVolume();
+
     }
 }

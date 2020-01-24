@@ -2,7 +2,7 @@
 using UnityEngine;
 using System;
 using System.Collections;
-
+using System.Collections.Generic;
 
 public class AudioManager : MonoBehaviour
 {
@@ -11,6 +11,10 @@ public class AudioManager : MonoBehaviour
 
     public Sound[] sounds;
     public Sound[] music;
+
+    private int songNumber = 0;
+
+    private List<AudioSource> soundSources = new List<AudioSource>();
 
     public int masterVolume = 10;
     public int soundVolume = 10;
@@ -44,6 +48,8 @@ public class AudioManager : MonoBehaviour
             s.source.volume = s.volume * 0.01f * soundVolume * masterVolume;
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
+
+            soundSources.Add(s.source);
         }
 
         StartCoroutine("PlayMusic");
@@ -111,11 +117,11 @@ public class AudioManager : MonoBehaviour
 
     public IEnumerator PlayMusic() {
 
-        int count = 0;
+        songNumber = 0;
         
         while(musicEnabled) {
-            Debug.Log("Song number: " + count);
-            Sound song = music[count];
+            Debug.Log("Song number: " + songNumber);
+            Sound song = music[songNumber];
 
             musicPlayer.volume = song.volume * 0.01f * musicVolume * masterVolume;
             musicPlayer.clip = song.clip;
@@ -126,13 +132,27 @@ public class AudioManager : MonoBehaviour
                 yield return null;
             }
 
-            count++;
-            if(count >= music.Length) {
-                count = 0; 
+            songNumber++;
+            if(songNumber >= music.Length) {
+                songNumber = 0; 
             }
 
             yield return null;
         }
+
+
+    }
+
+    public void UpdateVolume() {
+
+        for (int i = 0; i < sounds.Length; i++) {
+            AudioSource sound = soundSources[i];
+            sound.volume = sounds[i].volume * masterVolume * soundVolume * 0.01f;
+        }
+
+        musicPlayer.volume = music[songNumber].volume * musicVolume * masterVolume * 0.01f;
+
+        Debug.Log(musicPlayer.volume);
 
     }
 
