@@ -17,8 +17,8 @@ public class Pedestrian : MonoBehaviour
     {
         player = GameObject.Find("Player");
 
-        movespeed = 0.04f;
-        float randNum = Random.Range(-0.01f,0.01f);
+        movespeed = 2f;
+        float randNum = Random.Range(-0.5f,0.5f);
         movespeed = movespeed + (randNum);
 
         if(goLeft) {
@@ -37,7 +37,9 @@ public class Pedestrian : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(transform.position.x + movespeed, transform.position.y);
+        //transform.position = new Vector3(transform.position.x + movespeed, transform.position.y);
+
+        transform.Translate(movespeed * Time.deltaTime,0,0);
         
         float distance = player.transform.position.x - gameObject.transform.position.x;
         if(Mathf.Abs(distance) > 20f) {

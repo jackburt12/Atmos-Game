@@ -16,7 +16,7 @@ public class LightManager : MonoBehaviour
     float globalDayIntensity = 1.5f;
 
 
-    UnityEngine.Experimental.Rendering.LWRP.Light2D globalLight;
+    UnityEngine.Experimental.Rendering.Universal.Light2D globalLight;
 
     bool night = false;
 
@@ -28,7 +28,7 @@ public class LightManager : MonoBehaviour
 
     GameObject[] lights;
 
-    Dictionary<UnityEngine.Experimental.Rendering.LWRP.Light2D, float> lightMap = new Dictionary<UnityEngine.Experimental.Rendering.LWRP.Light2D, float>();
+    Dictionary<UnityEngine.Experimental.Rendering.Universal.Light2D, float> lightMap = new Dictionary<UnityEngine.Experimental.Rendering.Universal.Light2D, float>();
 
 
     // Start is called before the first frame update
@@ -46,11 +46,11 @@ public class LightManager : MonoBehaviour
 
         gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
 
-        globalLight = gameObject.GetComponent<UnityEngine.Experimental.Rendering.LWRP.Light2D>();
+        globalLight = gameObject.GetComponent<UnityEngine.Experimental.Rendering.Universal.Light2D>();
         lights = GameObject.FindGameObjectsWithTag("NightLight");
 
         foreach (GameObject light in lights) {
-            UnityEngine.Experimental.Rendering.LWRP.Light2D light2D = light.GetComponent<UnityEngine.Experimental.Rendering.LWRP.Light2D>();
+            UnityEngine.Experimental.Rendering.Universal.Light2D light2D = light.GetComponent<UnityEngine.Experimental.Rendering.Universal.Light2D>();
             lightMap.Add(light2D, light2D.intensity);
             light2D.intensity=0f;
         }

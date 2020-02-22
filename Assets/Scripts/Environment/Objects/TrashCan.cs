@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TrashCan : MonoBehaviour
+public class TrashCan : Interactable
 {
 
     Sprite[] sprites;
@@ -14,6 +14,13 @@ public class TrashCan : MonoBehaviour
         int randNum = Random.Range(0,sprites.Length);
  
         gameObject.GetComponent<SpriteRenderer>().sprite = sprites[randNum];
+    }
+
+    public override void Interact()
+    {
+        base.Interact();
+
+        Debug.Log("Interacted with trashcan");
     }
 
 }
