@@ -120,7 +120,6 @@ public class AudioManager : MonoBehaviour
         songNumber = 0;
         
         while(musicEnabled) {
-            Debug.Log("Song number: " + songNumber);
             Sound song = music[songNumber];
 
             musicPlayer.volume = song.volume * 0.01f * musicVolume * masterVolume;

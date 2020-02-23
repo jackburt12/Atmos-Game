@@ -15,16 +15,21 @@ public class Interactable : MonoBehaviour
     public float radius = 1f;
 
     bool isFocus = false;   // Is this interactable currently being focused?
-    public Transform player;       // Reference to the player transform
+    private Transform player;       // Reference to the player transform
 
     bool withinDistance = false;
     bool hasInteracted = false; // Have we already interacted with the object?
 
-    public GameObject interactPrefab;
-    public GameObject interactPopup;
+    private GameObject interactPrefab;
+    private GameObject interactPopup;
 
     private void Start()
     {
+
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        interactPrefab = Resources.Load("Prefabs/UI/InteractDialog") as GameObject;
+
         Vector2 whereToInstantiate = new Vector2(transform.position.x, transform.position.y + 1f);
         interactPopup = Instantiate(interactPrefab, transform);
         interactPopup.transform.position = whereToInstantiate;

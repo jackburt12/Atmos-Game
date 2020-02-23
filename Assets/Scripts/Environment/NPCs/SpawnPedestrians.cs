@@ -45,7 +45,6 @@ public class SpawnPedestrians : MonoBehaviour
             rand = -1;
         }
 
-        Debug.Log("Ped direction: " + rand);
         Vector3 positionVector = new Vector3((player.transform.position.x + rand * 15), -3, player.transform.position.z);
         GameObject spawnedPedestrian = Instantiate(pedestrian, positionVector, Quaternion.identity, gameObject.transform);
         spawnedPedestrian.transform.parent = gameObject.transform.parent;
