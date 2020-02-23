@@ -5,6 +5,7 @@ using UnityEngine.Rendering;
 
 public class Pedestrian : MonoBehaviour
 {
+    private GameTime gameTime;
 
     public bool goLeft = true;
 
@@ -15,6 +16,8 @@ public class Pedestrian : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
+
         player = GameObject.Find("Player");
 
         movespeed = 2f;
@@ -38,13 +41,22 @@ public class Pedestrian : MonoBehaviour
     void Update()
     {
         //transform.position = new Vector3(transform.position.x + movespeed, transform.position.y);
-
-        transform.Translate(movespeed * Time.deltaTime,0,0);
+        if(!gameTime.paused) {
+            
+            if(!gameObject.GetComponent<Animator>().enabled) {
+                gameObject.GetComponent<Animator>().enabled = true;
+            }
+    
+            transform.Translate(movespeed * Time.deltaTime,0,0);
         
-        float distance = player.transform.position.x - gameObject.transform.position.x;
-        if(Mathf.Abs(distance) > 20f) {
-            Destroy(gameObject);
+            float distance = player.transform.position.x - gameObject.transform.position.x;
+            if(Mathf.Abs(distance) > 20f) {
+                Destroy(gameObject);
+            }
+        } else {
+            gameObject.GetComponent<Animator>().enabled = false;
         }
+        
         
     }
 }

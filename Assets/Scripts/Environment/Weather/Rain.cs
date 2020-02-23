@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class Rain : MonoBehaviour
 {
 
+    GameTime gameTime;
+
     ParticleSystem[] systems;
     ParticleSystem.EmissionModule[] emissions;
 
@@ -23,6 +25,8 @@ public class Rain : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
+
         systems = gameObject.GetComponentsInChildren<ParticleSystem>();
 
         weatherUI = GameObject.Find("Weather");
@@ -32,78 +36,80 @@ public class Rain : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if(!gameTime.paused) {
 
-        currentRainTime += (Time.deltaTime);
+            currentRainTime += (Time.deltaTime);
 
-
-        if(!isRaining) {
-            int randNum2 = Random.Range(0,1000);
-                if(randNum2 == 1 && currentRainTime >= minRainIntevals) {
-                    currentRainTime = 0;
-                    RainIntensity intensity = (RainIntensity)Random.Range(0,5);
-                    StartCoroutine("StartRain", intensity);
-                }
-        }
-
-        if(isRaining) {
-            if(rainType == 2) {
-                int randNum = Random.Range(0,10000);
-                if(randNum == 1) {
-                    FindObjectOfType<AudioManager>().Play("DistantThunder");
-                }
-            } else if (rainType == 3) {
-                int randNum = Random.Range(0,10000);
-                if(randNum < 2) {
-                    FindObjectOfType<AudioManager>().Play("DistantThunder");
-
-                }
-                else if(randNum < 4 ) {
-                    int fiftyfifty = Random.Range(0,2);
-                    if(fiftyfifty==0) {
-                        FindObjectOfType<AudioManager>().Play("MidThunder1");
-
-                    } else {
-                        FindObjectOfType<AudioManager>().Play("MidThunder2");
+            if(!isRaining) {
+                int randNum2 = Random.Range(0,1000);
+                    if(randNum2 == 1 && currentRainTime >= minRainIntevals) {
+                        currentRainTime = 0;
+                        RainIntensity intensity = (RainIntensity)Random.Range(0,5);
+                        StartCoroutine("StartRain", intensity);
                     }
-                } else if(randNum == 4) {
-                    int fiftyfifty = Random.Range(0,2);
-                    if(fiftyfifty==0) {
-                        FindObjectOfType<AudioManager>().Play("HeavyThunder1");
-                    } else {
-                        FindObjectOfType<AudioManager>().Play("HeavyThunder2");
-                    }
-                }
-            } else if (rainType == 4) {
-                int randNum = Random.Range(0,10000);
-                if(randNum < 3) {
-                    FindObjectOfType<AudioManager>().Play("DistantThunder");
-
-                }
-                else if(randNum < 6 ) {
-                    int fiftyfifty = Random.Range(0,2);
-                    if(fiftyfifty==0) {
-                        FindObjectOfType<AudioManager>().Play("MidThunder1");
-
-                    } else {
-                        FindObjectOfType<AudioManager>().Play("MidThunder2");
-
-                    }
-                } else if(randNum < 8) {
-                    int fiftyfifty = Random.Range(0,2);
-                    if(fiftyfifty==0) {
-                        FindObjectOfType<AudioManager>().Play("HeavyThunder1");
-                    } else {
-                        FindObjectOfType<AudioManager>().Play("HeavyThunder2");
-                    }
-                }
             }
 
-            int randNum3 = Random.Range(0,1000);
-                if(randNum3 == 1 && currentRainTime >= minRainIntevals) {
-                    currentRainTime = 0;
-                    RainIntensity intensity = (RainIntensity)Random.Range(0,5);
-                    StartCoroutine("StopRain", intensity);
+            if(isRaining) {
+                if(rainType == 2) {
+                    int randNum = Random.Range(0,10000);
+                    if(randNum == 1) {
+                        FindObjectOfType<AudioManager>().Play("DistantThunder");
+                    }
+                } else if (rainType == 3) {
+                    int randNum = Random.Range(0,10000);
+                    if(randNum < 2) {
+                        FindObjectOfType<AudioManager>().Play("DistantThunder");
+
+                    }
+                    else if(randNum < 4 ) {
+                        int fiftyfifty = Random.Range(0,2);
+                        if(fiftyfifty==0) {
+                            FindObjectOfType<AudioManager>().Play("MidThunder1");
+
+                        } else {
+                            FindObjectOfType<AudioManager>().Play("MidThunder2");
+                        }
+                    } else if(randNum == 4) {
+                        int fiftyfifty = Random.Range(0,2);
+                        if(fiftyfifty==0) {
+                            FindObjectOfType<AudioManager>().Play("HeavyThunder1");
+                        } else {
+                            FindObjectOfType<AudioManager>().Play("HeavyThunder2");
+                        }
+                    }
+                } else if (rainType == 4) {
+                    int randNum = Random.Range(0,10000);
+                    if(randNum < 3) {
+                        FindObjectOfType<AudioManager>().Play("DistantThunder");
+
+                    }
+                    else if(randNum < 6 ) {
+                        int fiftyfifty = Random.Range(0,2);
+                        if(fiftyfifty==0) {
+                            FindObjectOfType<AudioManager>().Play("MidThunder1");
+
+                        } else {
+                            FindObjectOfType<AudioManager>().Play("MidThunder2");
+
+                        }
+                    } else if(randNum < 8) {
+                        int fiftyfifty = Random.Range(0,2);
+                        if(fiftyfifty==0) {
+                            FindObjectOfType<AudioManager>().Play("HeavyThunder1");
+                        } else {
+                            FindObjectOfType<AudioManager>().Play("HeavyThunder2");
+                        }
+                    }
                 }
+
+                int randNum3 = Random.Range(0,1000);
+                    if(randNum3 == 1 && currentRainTime >= minRainIntevals) {
+                        currentRainTime = 0;
+                        RainIntensity intensity = (RainIntensity)Random.Range(0,5);
+                        StartCoroutine("StopRain", intensity);
+                    }
+            }
+
         }
         
     }

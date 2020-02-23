@@ -12,6 +12,8 @@ using UnityEngine.AI;
 public class Interactable : MonoBehaviour
 {
 
+    private GameTime gameTime;
+
     public float radius = 1f;
 
     bool isFocus = false;   // Is this interactable currently being focused?
@@ -23,22 +25,23 @@ public class Interactable : MonoBehaviour
     private GameObject interactPrefab;
     private GameObject interactPopup;
 
-    private void Start()
+    public virtual void Start()
     {
+        gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
 
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
         interactPrefab = Resources.Load("Prefabs/UI/InteractDialog") as GameObject;
 
-        Vector2 whereToInstantiate = new Vector2(transform.position.x, transform.position.y + 1f);
+        Vector2 whereToInstantiate = new Vector2(transform.position.x, transform.position.y + 1.5f);
         interactPopup = Instantiate(interactPrefab, transform);
         interactPopup.transform.position = whereToInstantiate;
         interactPopup.GetComponent<CanvasGroup>().alpha = 0f;
     }
 
-    void Update() {
+    public virtual void Update() {
         float distance = Vector3.Distance(player.position, transform.position);
-        if (!hasInteracted && distance <= radius)
+        if (distance <= radius)
         {
             if(!withinDistance){
                 withinDistance = true;
@@ -67,7 +70,8 @@ public class Interactable : MonoBehaviour
     // This method is meant to be overwritten
     public virtual void Interact()
     {
-
+        gameTime.paused = true;
+        GameObject.Find("Black Bars").GetComponent<BlackBars>().MoveBarsIn();
     }
 
     void OnDrawGizmosSelected()
@@ -81,7 +85,6 @@ public class Interactable : MonoBehaviour
         for (float f = 0.0f; f <= 1f; f += 0.05f)
         {
             interactPopup.GetComponent<CanvasGroup>().alpha = f;
-            Debug.Log(f);
             yield return null;
         }
     }

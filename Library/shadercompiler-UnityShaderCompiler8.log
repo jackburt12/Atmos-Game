@@ -1,18 +1,17 @@
-Base path: '/home/jack/Unity/Hub/Editor/2019.2.17f1/Editor/Data', plugins path '/home/jack/Unity/Hub/Editor/2019.2.17f1/Editor/Data/PlaybackEngines'
+Base path: '/home/jack/Unity/Hub/Editor/2019.3.2f1/Editor/Data', plugins path '/home/jack/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=15 insize=3070 outsize=83695 ok=1
+  api=15 insize=18731 outsize=16878 ok=1
 Cmd: compileComputeKernel
-  api=18 insize=4855 outsize=15628 ok=1
+  api=18 insize=1226 outsize=3060 ok=1
 Cmd: compileComputeKernel
-  api=15 insize=18299 outsize=16554 ok=1
+  api=18 insize=5032 outsize=38014 ok=1
 Cmd: compileComputeKernel
-  api=18 insize=18299 outsize=33265 ok=1
+  api=15 insize=11176 outsize=18502 ok=1
 Cmd: compileComputeKernel
-  api=15 insize=3072 outsize=1307 ok=1
+  api=18 insize=2120 outsize=4124 ok=1
 Cmd: compileComputeKernel
-  api=15 insize=2044 outsize=2092 ok=1
-Cmd: compileSnippet
-  api=15 type=0 insize=4923 outsize=4606 kw=USE_ADDITIVE_BLENDING pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=15 type=1 insize=3504 outsize=0 kw=USE_ADDITIVE_BLENDING pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+  api=18 insize=3174 outsize=5636 ok=1
+Unhandled exception: Protocol error - unexpected end of data (did the Editor crash?)
+
+Quitting shader compiler process

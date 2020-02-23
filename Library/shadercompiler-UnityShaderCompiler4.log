@@ -1,4 +1,21 @@
-Base path: '/home/jack/Unity/Hub/Editor/2019.2.17f1/Editor/Data', plugins path '/home/jack/Unity/Hub/Editor/2019.2.17f1/Editor/Data/PlaybackEngines'
+Base path: '/home/jack/Unity/Hub/Editor/2019.3.2f1/Editor/Data', plugins path '/home/jack/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=15 insize=18731 outsize=16386 ok=1
+Cmd: compileComputeKernel
+  api=18 insize=18731 outsize=34381 ok=1
+Cmd: compileComputeKernel
+  api=15 insize=1226 outsize=2229 ok=1
+Cmd: compileComputeKernel
+  api=18 insize=5032 outsize=15628 ok=1
+Cmd: compileComputeKernel
+  api=18 insize=11176 outsize=40696 ok=1
+Cmd: compileComputeKernel
+  api=15 insize=2134 outsize=4152 ok=1
+Cmd: compileComputeKernel
+  api=18 insize=1957 outsize=6515 ok=1
+Cmd: compileSnippet
+  api=15 type=0 insize=3714 outsize=4403 kw=USE_ADDITIVE_BLENDING pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Unhandled exception: Protocol error - unexpected end of data (did the Editor crash?)
 
 Quitting shader compiler process
