@@ -13833,9 +13833,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 1
-  player: {fileID: 0}
-  interactPrefab: {fileID: 0}
-  interactPopup: {fileID: 0}
 --- !u!1001 &1452115034
 PrefabInstance:
   m_ObjectHideFlags: 0
