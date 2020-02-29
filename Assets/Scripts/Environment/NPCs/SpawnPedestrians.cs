@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpawnPedestrians : MonoBehaviour
 {
+    private GameTime gameTime;
     //how many pedestrians should spawn
     //a spawn rate of 1 means one every 10 seconds
     public int spawnRate;
@@ -18,6 +19,8 @@ public class SpawnPedestrians : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
+
         pedestriansList = Resources.LoadAll<GameObject>("Prefabs/Characters/Pedestrians");
 
         rate = 10 / spawnRate;
@@ -27,12 +30,15 @@ public class SpawnPedestrians : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer -= Time.deltaTime;
-        if (timer <= 0f)
-        {
-            SpawnPedestrian();
-            timer = rate;
+        if(!gameTime.paused){
+            timer -= Time.deltaTime;
+            if (timer <= 0f)
+            {
+                SpawnPedestrian();
+                timer = rate;
+            }
         }
+        
     }
 
     void SpawnPedestrian() {

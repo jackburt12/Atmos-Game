@@ -172,6 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9264588955c8ecf108c78e6ca8a2b6c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  duration: 1
 --- !u!95 &5656913
 Animator:
   serializedVersion: 3
@@ -1297,6 +1298,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213941103}
   m_CullTransparentMesh: 0
+--- !u!1 &214234983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 214234985}
+  - component: {fileID: 214234984}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &214234984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214234983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b5a7b79fc300b8f9f93975d767bac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 0}
+  dialogueText: {fileID: 0}
+--- !u!4 &214234985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214234983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1170232217}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &227574372
 GameObject:
   m_ObjectHideFlags: 0
@@ -1711,7 +1757,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00000035762787, y: -1.0000001, z: -10}
+  m_LocalPosition: {x: -0.00000023841858, y: -1.0000001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 15895915}
@@ -8673,6 +8719,7 @@ Transform:
   m_Children:
   - {fileID: 1986442344}
   - {fileID: 585906810}
+  - {fileID: 214234985}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14068,9 +14115,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 530909311
-  m_SortingLayer: 6
-  m_SortingOrder: 0
+  m_SortingLayerID: 702053907
+  m_SortingLayer: 4
+  m_SortingOrder: -998
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -26132,6 +26179,7 @@ GameObject:
   - component: {fileID: 2007967048}
   - component: {fileID: 2007967047}
   - component: {fileID: 2007967050}
+  - component: {fileID: 2007967051}
   m_Layer: 0
   m_Name: Smoker
   m_TagString: Untagged
@@ -26237,6 +26285,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 1
+--- !u!114 &2007967051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007967046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16df451420fccfd4b8941dade76739f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instance: {fileID: 214234984}
+  dialogue:
+    name: Rick Deckard
+    sentences:
+    - Hi, my name is Rick Deckard...
+    - I am a bounty hunter for the NYPD.
+    - Don't worry, I'm only a danger to Andys though.
 --- !u!1 &2014901145
 GameObject:
   m_ObjectHideFlags: 0

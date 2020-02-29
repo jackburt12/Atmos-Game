@@ -21,7 +21,6 @@ public class BlackBars : MonoBehaviour
     public void MoveBarsIn() {
         
         anim.SetBool("isHidden", false);
-        //GameObject.Find("VCAM").GetComponent<CinemachineVirtualCamera>().m_Lens.OrthographicSize = 4;
         StartCoroutine("ZoomIn");
 
     }
@@ -30,7 +29,6 @@ public class BlackBars : MonoBehaviour
 
         for (float f = 5f; f >= 4f; f -= 0.05f)
         {
-            Debug.Log(f);
             GameObject.Find("VCAM").GetComponent<CinemachineVirtualCamera>().m_Lens.OrthographicSize = f;
             yield return null;
         }
@@ -40,7 +38,6 @@ public class BlackBars : MonoBehaviour
 
         for (float f = 4f; f <= 5f; f += 0.05f)
         {
-            Debug.Log(f);
             GameObject.Find("VCAM").GetComponent<CinemachineVirtualCamera>().m_Lens.OrthographicSize = f;
             yield return null;
         }
@@ -48,5 +45,6 @@ public class BlackBars : MonoBehaviour
 
     public void MoveBarsOut() {
         anim.SetBool("isHidden", true);
+        StartCoroutine("ZoomOut");
     }
 }

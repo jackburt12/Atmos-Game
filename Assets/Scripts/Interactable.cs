@@ -12,28 +12,24 @@ using UnityEngine.AI;
 public class Interactable : MonoBehaviour
 {
 
-    private GameTime gameTime;
-
     public float radius = 1f;
 
     bool isFocus = false;   // Is this interactable currently being focused?
     private Transform player;       // Reference to the player transform
 
     bool withinDistance = false;
-    bool hasInteracted = false; // Have we already interacted with the object?
+    public bool hasInteracted = false; // Have we already interacted with the object?
 
     private GameObject interactPrefab;
     private GameObject interactPopup;
 
     public virtual void Start()
     {
-        gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
-
         player = GameObject.FindGameObjectWithTag("Player").transform;
-
         interactPrefab = Resources.Load("Prefabs/UI/InteractDialog") as GameObject;
 
         Vector2 whereToInstantiate = new Vector2(transform.position.x, transform.position.y + 1.5f);
+
         interactPopup = Instantiate(interactPrefab, transform);
         interactPopup.transform.position = whereToInstantiate;
         interactPopup.GetComponent<CanvasGroup>().alpha = 0f;
@@ -41,10 +37,12 @@ public class Interactable : MonoBehaviour
 
     public virtual void Update() {
         float distance = Vector3.Distance(player.position, transform.position);
-        if (distance <= radius)
+
+        if (distance <= radius )
         {
             if(!withinDistance){
                 withinDistance = true;
+                hasInteracted = false;
                 StartCoroutine("InteractPromptFadeIn");
             }
         } else
@@ -52,27 +50,34 @@ public class Interactable : MonoBehaviour
             if(withinDistance)
             {
                 withinDistance = false;
-                StartCoroutine("InteractPromptFadeOut");
+                if(!hasInteracted) {
+                    StartCoroutine("InteractPromptFadeOut");
+                }
             }
         }
 
-        if(withinDistance) {
+        if(withinDistance&&!hasInteracted) {
 
             if (Input.GetButtonDown("Interact"))
             {
-                Debug.Log("Interact");
-                //hasInteracted = true;
+                StartCoroutine("InteractPromptFadeOut");
+                hasInteracted = true;
                 Interact();
             }
         }
+        
+        
     }
 
     // This method is meant to be overwritten
     public virtual void Interact()
     {
-        gameTime.paused = true;
-        GameObject.Find("Black Bars").GetComponent<BlackBars>().MoveBarsIn();
+        hasInteracted = true;
     }
+
+    public virtual void EndInteraction() {
+    }
+    
 
     void OnDrawGizmosSelected()
     {
