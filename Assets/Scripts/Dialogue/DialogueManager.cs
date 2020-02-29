@@ -21,6 +21,10 @@ public class DialogueManager : MonoBehaviour
 
     private DialogueTrigger context;
 
+    private List<Coroutine> coroutineList;
+
+    CinematicBars bars;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -36,7 +40,7 @@ public class DialogueManager : MonoBehaviour
 
     void Start() {
         gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
-
+        bars = GameObject.Find("CinematicBars").GetComponent<CinematicBars>();
 
         sentences = new Queue<string>();
     }
@@ -70,6 +74,9 @@ public class DialogueManager : MonoBehaviour
         foreach(string sentence in dialogue.sentences) {
             sentences.Enqueue(sentence);
         }
+
+        coroutineList = new List<Coroutine>();
+
         DisplayNextSentence();
     }
 
@@ -79,8 +86,10 @@ public class DialogueManager : MonoBehaviour
             return;
         } else {
             string sentence = sentences.Dequeue();
-            StopCoroutine("DisplayNextSentence");
-            StartCoroutine(TypeSentance(sentence));
+            foreach(Coroutine c in coroutineList) {
+                StopCoroutine(c);
+            }
+            coroutineList.Add(StartCoroutine(TypeSentance(sentence)));
         }
     }
 
@@ -98,6 +107,7 @@ public class DialogueManager : MonoBehaviour
             }
         
             yield return new WaitForSeconds(0.05f);
+            yield return new WaitForEndOfFrame();
         }
     }
 
@@ -131,11 +141,16 @@ public class DialogueManager : MonoBehaviour
 
     public void DialogueCameraOn() {
         gameTime.paused = true;
-        GameObject.Find("Black Bars").GetComponent<BlackBars>().MoveBarsIn();
+        bars.Show(Screen.height/4,0.4f);
+        bars.StartCoroutine("ZoomIn");
+        //GameObject.Find("Black Bars").GetComponent<BlackBars>().MoveBarsIn();
+        
     }
 
     void DialogueCameraOff() {
         gameTime.paused = false;
-        GameObject.Find("Black Bars").GetComponent<BlackBars>().MoveBarsOut();
+        bars.Hide(0.4f);
+        bars.StartCoroutine("ZoomOut");
+        //GameObject.Find("Black Bars").GetComponent<BlackBars>().MoveBarsOut();
     }
 }

@@ -13,22 +13,31 @@ public class PlayerMovement : MonoBehaviour
     private bool jump = false;
     private bool crouch = false;
 
+    private GameTime gameTime;
+
+    void Start() {
+        gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
+    }
 
     // Update is called once per frame
     void Update()
     {
+        if(!gameTime.paused) {
+            horizontalVelocity = Input.GetAxisRaw("Horizontal") * runSpeed;
 
-        horizontalVelocity = Input.GetAxisRaw("Horizontal") * runSpeed;
+            if (Input.GetButtonDown("Jump")) {
+                jump = true;
+            }
 
-        if (Input.GetButtonDown("Jump")) {
-            jump = true;
+            if (Input.GetButtonDown("Crouch")) {
+                crouch = true;
+            } else if (Input.GetButtonUp("Crouch")) {
+                crouch = false;
+            }
+        } else {
+            horizontalVelocity = 0f;
         }
-
-        if (Input.GetButtonDown("Crouch")) {
-            crouch = true;
-        } else if (Input.GetButtonUp("Crouch")) {
-            crouch = false;
-        }
+        
         
     }
 

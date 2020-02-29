@@ -13,6 +13,8 @@ public class Pedestrian : MonoBehaviour
 
     public GameObject player;
 
+    private Color pedColor;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +37,8 @@ public class Pedestrian : MonoBehaviour
         }
 
         gameObject.GetComponent<SortingGroup>().sortingOrder = randOrder;
+        pedColor = gameObject.GetComponent<SpriteRenderer>().color;
+
     }
 
     // Update is called once per frame
@@ -45,6 +49,7 @@ public class Pedestrian : MonoBehaviour
             
             if(!gameObject.GetComponent<Animator>().enabled) {
                 gameObject.GetComponent<Animator>().enabled = true;
+                DeghostSprite();
             }
     
             transform.Translate(movespeed * Time.deltaTime,0,0);
@@ -55,8 +60,19 @@ public class Pedestrian : MonoBehaviour
             }
         } else {
             gameObject.GetComponent<Animator>().enabled = false;
+            GhostSprite();
         }
         
         
+    }
+
+    void GhostSprite() {
+        gameObject.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,0.4f);
+        gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,0.4f);
+    }
+
+    void DeghostSprite() {
+        gameObject.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,1f);
+        gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,1f);
     }
 }

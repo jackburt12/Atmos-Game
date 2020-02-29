@@ -48,6 +48,7 @@
      <Compile Include="Assets\Audio\AudioManager.cs" />
      <Compile Include="Assets\Audio\Sound.cs" />
      <Compile Include="Assets\Scripts\BlackBars.cs" />
+     <Compile Include="Assets\Scripts\CinematicBars.cs" />
      <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
      <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
