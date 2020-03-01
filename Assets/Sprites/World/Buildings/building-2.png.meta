@@ -1,0 +1,3631 @@
+fileFormatVersion: 2
+guid: 1eb49fa00bc21c54183f2698ac81b277
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7831507287310988469
+    second: building-2_0
+  - first:
+      213: -519482404845051284
+    second: building-2_1
+  - first:
+      213: 917246023384298046
+    second: building-2_2
+  - first:
+      213: 697419819222961656
+    second: building-2_3
+  - first:
+      213: -3377445353066023703
+    second: building-2_4
+  - first:
+      213: -5892031293097831153
+    second: building-2_5
+  - first:
+      213: 6363142163729367097
+    second: building-2_6
+  - first:
+      213: -4006428187214920020
+    second: building-2_7
+  - first:
+      213: -8912305113910066310
+    second: building-2_8
+  - first:
+      213: -7966601984631410793
+    second: building-2_9
+  - first:
+      213: 518671831054603953
+    second: building-2_10
+  - first:
+      213: -4587285822449316204
+    second: building-2_11
+  - first:
+      213: 914099895956603507
+    second: building-2_12
+  - first:
+      213: 6073321914843769977
+    second: building-2_13
+  - first:
+      213: 6122977103530658539
+    second: building-2_14
+  - first:
+      213: -4026722105266048544
+    second: building-2_15
+  - first:
+      213: -2375927924615897791
+    second: building-2_16
+  - first:
+      213: -4240579916402929881
+    second: building-2_17
+  - first:
+      213: 4582713596216636394
+    second: building-2_18
+  - first:
+      213: 2417434509464624457
+    second: building-2_19
+  - first:
+      213: 5741653969232369504
+    second: building-2_20
+  - first:
+      213: 144411274122279022
+    second: building-2_21
+  - first:
+      213: 6074996067701475892
+    second: building-2_22
+  - first:
+      213: -1174233684538413333
+    second: building-2_23
+  - first:
+      213: 7253543287291410024
+    second: building-2_24
+  - first:
+      213: 8470365666516012128
+    second: building-2_25
+  - first:
+      213: -2884061985182883682
+    second: building-2_26
+  - first:
+      213: -5670667970118793988
+    second: building-2_27
+  - first:
+      213: 7560327621746366435
+    second: building-2_28
+  - first:
+      213: -7477365253983227144
+    second: building-2_29
+  - first:
+      213: -3363922984717390508
+    second: building-2_30
+  - first:
+      213: -6167616879629721135
+    second: building-2_31
+  - first:
+      213: 3232331816828430182
+    second: building-2_32
+  - first:
+      213: -7643024133126415663
+    second: building-2_33
+  - first:
+      213: -5279117064313320368
+    second: building-2_34
+  - first:
+      213: 7725530602673980272
+    second: building-2_35
+  - first:
+      213: -3447582243842894826
+    second: building-2_36
+  - first:
+      213: -4022520462378469515
+    second: building-2_37
+  - first:
+      213: 5423598728885249641
+    second: building-2_38
+  - first:
+      213: 6988749283068800904
+    second: building-2_39
+  - first:
+      213: 6266191716051016821
+    second: building-2_40
+  - first:
+      213: 521005501553128109
+    second: building-2_41
+  - first:
+      213: 8238946319851095982
+    second: building-2_42
+  - first:
+      213: 5295552607715226856
+    second: building-2_43
+  - first:
+      213: 7890276851785455649
+    second: building-2_44
+  - first:
+      213: 6780664166471495411
+    second: building-2_45
+  - first:
+      213: -3340828895889043160
+    second: building-2_46
+  - first:
+      213: 2333821327141624887
+    second: building-2_47
+  - first:
+      213: 65983940418984619
+    second: building-2_48
+  - first:
+      213: 751132905428556629
+    second: building-2_49
+  - first:
+      213: -541872379941104611
+    second: building-2_50
+  - first:
+      213: 142699771274737620
+    second: building-2_51
+  - first:
+      213: 5853052656661913559
+    second: building-2_52
+  - first:
+      213: 4854776851887908665
+    second: building-2_53
+  - first:
+      213: -7131282586781097769
+    second: building-2_54
+  - first:
+      213: -3548427621673925880
+    second: building-2_55
+  - first:
+      213: -9097193102817350161
+    second: building-2_56
+  - first:
+      213: 5324645977341476621
+    second: building-2_57
+  - first:
+      213: -5402847301192352365
+    second: building-2_58
+  - first:
+      213: -7973114131477703748
+    second: building-2_59
+  - first:
+      213: -5604168190694442223
+    second: building-2_60
+  - first:
+      213: -2782898293866330411
+    second: building-2_61
+  - first:
+      213: 6534266805297400031
+    second: building-2_62
+  - first:
+      213: 8983550638416528968
+    second: building-2_63
+  - first:
+      213: 5419412693070571340
+    second: building-2_64
+  - first:
+      213: -143335862392131435
+    second: building-2_65
+  - first:
+      213: -2823144353269731458
+    second: building-2_66
+  - first:
+      213: -490994696685103911
+    second: building-2_67
+  - first:
+      213: -6261807165443038976
+    second: building-2_68
+  - first:
+      213: -3192486599668273569
+    second: building-2_69
+  - first:
+      213: 6961817000496289075
+    second: building-2_70
+  - first:
+      213: 4141234513855608288
+    second: building-2_71
+  - first:
+      213: -425015173571975315
+    second: building-2_72
+  - first:
+      213: 1474958714475467298
+    second: building-2_73
+  - first:
+      213: 279077324750651374
+    second: building-2_74
+  - first:
+      213: -5638105711774053873
+    second: building-2_75
+  - first:
+      213: -166362757548574159
+    second: building-2_76
+  - first:
+      213: -94435850119037655
+    second: building-2_77
+  - first:
+      213: -5593835600340567403
+    second: building-2_78
+  - first:
+      213: 1984159206554894610
+    second: building-2_79
+  - first:
+      213: -7312448365681835693
+    second: building-2_80
+  - first:
+      213: 6053416376249616885
+    second: building-2_81
+  - first:
+      213: 9123762997533300976
+    second: building-2_82
+  - first:
+      213: -4852404733289364567
+    second: building-2_83
+  - first:
+      213: 1427173923277709629
+    second: building-2_84
+  - first:
+      213: -76670225732082285
+    second: building-2_85
+  - first:
+      213: 2588428682489759376
+    second: building-2_86
+  - first:
+      213: 5949579761576269495
+    second: building-2_87
+  - first:
+      213: 6602668465140681441
+    second: building-2_88
+  - first:
+      213: 3033611994032091136
+    second: building-2_89
+  - first:
+      213: 2687245595107588157
+    second: building-2_90
+  - first:
+      213: 2907689297872789582
+    second: building-2_91
+  - first:
+      213: 128962194167181121
+    second: building-2_92
+  - first:
+      213: 2914526538666706682
+    second: building-2_93
+  - first:
+      213: 8270093142214079180
+    second: building-2_94
+  - first:
+      213: -330010182499570582
+    second: building-2_95
+  - first:
+      213: -7037815701841698122
+    second: building-2_96
+  - first:
+      213: 8339334882386559913
+    second: building-2_97
+  - first:
+      213: -8233167363756286711
+    second: building-2_98
+  - first:
+      213: -3399616798077830985
+    second: building-2_99
+  - first:
+      213: 5511641389313030674
+    second: building-2_100
+  - first:
+      213: 2027710543512806090
+    second: building-2_101
+  - first:
+      213: -2671661881767732412
+    second: building-2_102
+  - first:
+      213: 5784340345050128250
+    second: building-2_103
+  - first:
+      213: 2315527620971444514
+    second: building-2_104
+  - first:
+      213: -514178889482740546
+    second: building-2_105
+  - first:
+      213: 5943098907639253586
+    second: building-2_106
+  - first:
+      213: 314178105260596576
+    second: building-2_107
+  - first:
+      213: -743550391442109510
+    second: building-2_108
+  - first:
+      213: -1887549698892253579
+    second: building-2_109
+  - first:
+      213: -3365329013454501650
+    second: building-2_110
+  - first:
+      213: 1380011168065649348
+    second: building-2_111
+  - first:
+      213: 457580862121369518
+    second: building-2_112
+  - first:
+      213: -6768557739828223935
+    second: building-2_113
+  - first:
+      213: -2672480877386428822
+    second: building-2_114
+  - first:
+      213: 5184119724058877807
+    second: building-2_115
+  - first:
+      213: 5422255040023024222
+    second: building-2_116
+  - first:
+      213: 2702994414298668557
+    second: building-2_117
+  - first:
+      213: 4699929740136973885
+    second: building-2_118
+  - first:
+      213: 2605088807292201086
+    second: building-2_119
+  - first:
+      213: 2821735903372770669
+    second: building-2_120
+  - first:
+      213: -8540407598031590110
+    second: building-2_121
+  - first:
+      213: -5861715285908880938
+    second: building-2_122
+  - first:
+      213: 5365449148774100526
+    second: building-2_123
+  - first:
+      213: -2018776047645868422
+    second: building-2_124
+  - first:
+      213: -4020799931223896222
+    second: building-2_125
+  - first:
+      213: 864136785889504969
+    second: building-2_126
+  - first:
+      213: -4835837283639286179
+    second: building-2_127
+  - first:
+      213: 7232329326946149567
+    second: building-2_128
+  - first:
+      213: -5661988400403956929
+    second: building-2_129
+  - first:
+      213: 8273451280811266892
+    second: building-2_130
+  - first:
+      213: 1765642505797023759
+    second: building-2_131
+  - first:
+      213: -1938488550228444003
+    second: building-2_132
+  - first:
+      213: -560781637365381408
+    second: building-2_133
+  - first:
+      213: -3340463845395472427
+    second: building-2_134
+  - first:
+      213: -8353522459883967435
+    second: building-2_135
+  - first:
+      213: 8969959851610438912
+    second: building-2_136
+  - first:
+      213: 8765385562838872475
+    second: building-2_137
+  - first:
+      213: -8999924055258053420
+    second: building-2_138
+  - first:
+      213: -4113225119811894457
+    second: building-2_139
+  - first:
+      213: 3569555408085837914
+    second: building-2_140
+  - first:
+      213: -48518793715837032
+    second: building-2_141
+  - first:
+      213: -4120486821504637882
+    second: building-2_142
+  - first:
+      213: -1382816929200275974
+    second: building-2_143
+  - first:
+      213: 7362777977717512418
+    second: building-2_144
+  - first:
+      213: 946507200045696144
+    second: building-2_145
+  - first:
+      213: -2191090328419255990
+    second: building-2_146
+  - first:
+      213: 253022190231823602
+    second: building-2_147
+  - first:
+      213: 7714805132476451903
+    second: building-2_148
+  - first:
+      213: 9211407904199334391
+    second: building-2_149
+  - first:
+      213: 7017918273096608707
+    second: building-2_150
+  - first:
+      213: -1893799629499198852
+    second: building-2_151
+  - first:
+      213: 8619216079413591017
+    second: building-2_0
+  - first:
+      213: -7908888260830014661
+    second: building-2_1
+  - first:
+      213: 4811413862469785082
+    second: building-2_2
+  - first:
+      213: -295728502344026476
+    second: building-2_3
+  - first:
+      213: -7468439943267096783
+    second: building-2_4
+  - first:
+      213: -353165160092533851
+    second: building-2_5
+  - first:
+      213: 1612756731958735095
+    second: building-2_6
+  - first:
+      213: -1256670520936314766
+    second: building-2_7
+  - first:
+      213: -4491799295127301248
+    second: building-2_8
+  - first:
+      213: -1359832599583742951
+    second: building-2_9
+  - first:
+      213: -2733446688912696599
+    second: building-2_10
+  - first:
+      213: -126865361497079066
+    second: building-2_11
+  - first:
+      213: -8555483105659104972
+    second: building-2_12
+  - first:
+      213: -5373501900490322800
+    second: building-2_13
+  - first:
+      213: 4830025079982874861
+    second: building-2_14
+  - first:
+      213: 8222309925917391899
+    second: building-2_15
+  - first:
+      213: 7179781648914253071
+    second: building-2_16
+  - first:
+      213: -1083153803946995509
+    second: building-2_17
+  - first:
+      213: 7565609962296979614
+    second: building-2_18
+  - first:
+      213: -5132537508836333143
+    second: building-2_19
+  - first:
+      213: 7964358898122725263
+    second: building-2_20
+  - first:
+      213: 7941782364924253376
+    second: building-2_21
+  - first:
+      213: -754088018270258337
+    second: building-2_22
+  - first:
+      213: -8737771625617327944
+    second: building-2_23
+  - first:
+      213: -7634929581242887198
+    second: building-2_24
+  - first:
+      213: -8178425969731163444
+    second: building-2_25
+  - first:
+      213: -4624201666367531434
+    second: building-2_26
+  - first:
+      213: 6989410280917160194
+    second: building-2_27
+  - first:
+      213: -4367701383742849542
+    second: building-2_28
+  - first:
+      213: -5455039486457413985
+    second: building-2_29
+  - first:
+      213: -3827695212694234598
+    second: building-2_30
+  - first:
+      213: -378004197228922785
+    second: building-2_31
+  - first:
+      213: -2964315773228548209
+    second: building-2_32
+  - first:
+      213: 9190288539365038939
+    second: building-2_33
+  - first:
+      213: 5864643303678335282
+    second: building-2_34
+  - first:
+      213: -8075098340298101478
+    second: building-2_35
+  - first:
+      213: -2587542126471031038
+    second: building-2_36
+  - first:
+      213: 670740052516409778
+    second: building-2_37
+  - first:
+      213: 489690299185753804
+    second: building-2_38
+  - first:
+      213: 612850285623555731
+    second: building-2_39
+  - first:
+      213: -5368228449617550798
+    second: building-2_40
+  - first:
+      213: -8569329382540819047
+    second: building-2_41
+  - first:
+      213: 1250701001873404057
+    second: building-2_42
+  - first:
+      213: -7768622011426482088
+    second: building-2_43
+  - first:
+      213: 3756281240127725367
+    second: building-2_44
+  - first:
+      213: 226165701238366269
+    second: building-2_45
+  - first:
+      213: 7341632753830648120
+    second: building-2_46
+  - first:
+      213: -1800306622480530307
+    second: building-2_47
+  - first:
+      213: 3698629548309879973
+    second: building-2_48
+  - first:
+      213: -5518615524209298611
+    second: building-2_49
+  - first:
+      213: -7666848203441082237
+    second: building-2_50
+  - first:
+      213: 8069315065696219351
+    second: building-2_51
+  - first:
+      213: 4393394050045997486
+    second: building-2_52
+  - first:
+      213: -6052304798448076103
+    second: building-2_53
+  - first:
+      213: -6540207762907544687
+    second: building-2_54
+  - first:
+      213: 6974055852921529019
+    second: building-2_55
+  - first:
+      213: 3129040293835467143
+    second: building-2_56
+  - first:
+      213: 6960311416817838117
+    second: building-2_57
+  - first:
+      213: 2219430948810324650
+    second: building-2_58
+  - first:
+      213: -3967602309855843276
+    second: building-2_59
+  - first:
+      213: -6959019554936183994
+    second: building-2_60
+  - first:
+      213: -3728910808552844171
+    second: building-2_61
+  - first:
+      213: 8376038884597975758
+    second: building-2_62
+  - first:
+      213: -2418815813259744267
+    second: building-2_63
+  - first:
+      213: -5701695190728214716
+    second: building-2_64
+  - first:
+      213: -6743114259917332326
+    second: building-2_65
+  - first:
+      213: 3859742200885937002
+    second: building-2_66
+  - first:
+      213: -2613974921154228397
+    second: building-2_67
+  - first:
+      213: -6497492995802760844
+    second: building-2_68
+  - first:
+      213: -7861836702205488480
+    second: building-2_69
+  - first:
+      213: 8712087859859340824
+    second: building-2_70
+  - first:
+      213: -3891487360133770671
+    second: building-2_71
+  - first:
+      213: 8736052988088761224
+    second: building-2_72
+  - first:
+      213: -7096525856045552578
+    second: building-2_73
+  - first:
+      213: 6935374983099484477
+    second: building-2_74
+  - first:
+      213: 9133187169440265714
+    second: building-2_75
+  - first:
+      213: 9068454920460816835
+    second: building-2_76
+  - first:
+      213: 7766454150632065997
+    second: building-2_77
+  - first:
+      213: -4693150226632342946
+    second: building-2_78
+  - first:
+      213: 6825636329877815197
+    second: building-2_79
+  - first:
+      213: -6262380644969755617
+    second: building-2_80
+  - first:
+      213: -5208908257284109433
+    second: building-2_81
+  - first:
+      213: -5617218739124179231
+    second: building-2_82
+  - first:
+      213: 5775624251674741292
+    second: building-2_83
+  - first:
+      213: 3756813265140605948
+    second: building-2_84
+  - first:
+      213: 7434728513232785010
+    second: building-2_85
+  - first:
+      213: -3504218086135714939
+    second: building-2_86
+  - first:
+      213: -8182260778626423863
+    second: building-2_87
+  - first:
+      213: 2954573832261739092
+    second: building-2_88
+  - first:
+      213: -8070771515943301439
+    second: building-2_89
+  - first:
+      213: -145256347465104170
+    second: building-2_90
+  - first:
+      213: 4666485688130504954
+    second: building-2_91
+  - first:
+      213: 8686440672345952165
+    second: building-2_92
+  - first:
+      213: -1126541914433703624
+    second: building-2_93
+  - first:
+      213: -2148411936922527577
+    second: building-2_94
+  - first:
+      213: -2815785378019748614
+    second: building-2_95
+  - first:
+      213: 6982750853261745992
+    second: building-2_96
+  - first:
+      213: 2163574799802650266
+    second: building-2_97
+  - first:
+      213: 73731195552954499
+    second: building-2_98
+  - first:
+      213: -4701167730912493016
+    second: building-2_99
+  - first:
+      213: 7067699122057399268
+    second: building-2_100
+  - first:
+      213: 5307472739298465164
+    second: building-2_101
+  - first:
+      213: -3286146862364021172
+    second: building-2_102
+  - first:
+      213: 5588199666873396042
+    second: building-2_103
+  - first:
+      213: -5929993831616194721
+    second: building-2_104
+  - first:
+      213: 4744127576465094560
+    second: building-2_105
+  - first:
+      213: -2245653315141286461
+    second: building-2_106
+  - first:
+      213: 5885031772540089991
+    second: building-2_107
+  - first:
+      213: -4434724757704277917
+    second: building-2_108
+  - first:
+      213: -2709268090076139925
+    second: building-2_109
+  - first:
+      213: -2518068893039008502
+    second: building-2_110
+  - first:
+      213: -5289698720972008417
+    second: building-2_111
+  - first:
+      213: -1049700810741682264
+    second: building-2_112
+  - first:
+      213: -8135144940600653045
+    second: building-2_113
+  - first:
+      213: -3175262112688113308
+    second: building-2_114
+  - first:
+      213: -7424396053836438357
+    second: building-2_115
+  - first:
+      213: -4917930033418063134
+    second: building-2_116
+  - first:
+      213: -8304568986893284537
+    second: building-2_117
+  - first:
+      213: 8659742187274659665
+    second: building-2_118
+  - first:
+      213: 5505343664758422078
+    second: building-2_119
+  - first:
+      213: 1457232139175979507
+    second: building-2_120
+  - first:
+      213: 2935571206766096253
+    second: building-2_121
+  - first:
+      213: -9200972175841103521
+    second: building-2_122
+  - first:
+      213: 4844128801847656440
+    second: building-2_123
+  - first:
+      213: -925040232543397767
+    second: building-2_124
+  - first:
+      213: -2864597496845558492
+    second: building-2_125
+  - first:
+      213: 5225305054472619382
+    second: building-2_126
+  - first:
+      213: 5283851068055932828
+    second: building-2_127
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: building-2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb38cf8b5b9d9770800000000000000
+      internalID: 8619216079413591017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1680
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3358f4a70cfd3290800000000000000
+      internalID: -7908888260830014661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1680
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5d6eb7a6395c240800000000000000
+      internalID: 4811413862469785082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1680
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49673d37e7c55ebf0800000000000000
+      internalID: -295728502344026476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1680
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137e93be075ca5890800000000000000
+      internalID: -7468439943267096783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1680
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abf3a5782e491bf0800000000000000
+      internalID: -353165160092533851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1680
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f03585f3b9a16610800000000000000
+      internalID: 1612756731958735095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1680
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278c2efb1d86f8ee0800000000000000
+      internalID: -1256670520936314766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1568
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0835693f65ce9a1c0800000000000000
+      internalID: -4491799295127301248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1568
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914a0d39477e02de0800000000000000
+      internalID: -1359832599583742951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1568
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea14e608b8d01ad0800000000000000
+      internalID: -2733446688912696599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1568
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e24aa930a84d3ef0800000000000000
+      internalID: -126865361497079066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1568
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431555db171d44980800000000000000
+      internalID: -8555483105659104972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1568
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c4365dd7c7d65b0800000000000000
+      internalID: -5373501900490322800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1568
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de06b9c3832b70340800000000000000
+      internalID: 4830025079982874861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1568
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c797f50538b1270800000000000000
+      internalID: 8222309925917391899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1456
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05076c9e55b3a360800000000000000
+      internalID: 7179781648914253071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1456
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc050a6aa5dd7f0f0800000000000000
+      internalID: -1083153803946995509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1456
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e903ed72d227ef860800000000000000
+      internalID: 7565609962296979614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1456
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9217d345095c8b0800000000000000
+      internalID: -5132537508836333143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1456
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87935a8836178e60800000000000000
+      internalID: 7964358898122725263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1456
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c495c8cbf0e63e60800000000000000
+      internalID: 7941782364924253376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1456
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b7f9551f0f885f0800000000000000
+      internalID: -754088018270258337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1456
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8779e40033db680800000000000000
+      internalID: -8737771625617327944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e355e85ff74b0690800000000000000
+      internalID: -7634929581242887198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1344
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca285469e4608e80800000000000000
+      internalID: -8178425969731163444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1344
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656d462a51983dfb0800000000000000
+      internalID: -4624201666367531434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1344
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201d7877e9f5ff060800000000000000
+      internalID: 6989410280917160194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1344
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd76098bbec263c0800000000000000
+      internalID: -4367701383742849542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1344
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ef9f53d7ecb44b0800000000000000
+      internalID: -5455039486457413985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1344
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a95eaeb7b41eac0800000000000000
+      internalID: -3827695212694234598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1344
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5830947f2f01caf0800000000000000
+      internalID: -378004197228922785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fff968282acd6d0800000000000000
+      internalID: -2964315773228548209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1232
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b523cfbb67a8f70800000000000000
+      internalID: 9190288539365038939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1232
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239de123306636150800000000000000
+      internalID: 5864643303678335282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1232
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d6f2cd7dc7fef80800000000000000
+      internalID: -8075098340298101478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1232
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207d5563524371cd0800000000000000
+      internalID: -2587542126471031038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1232
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b11ed62682fe4900800000000000000
+      internalID: 670740052516409778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1232
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cceebec8bbabbc600800000000000000
+      internalID: 489690299185753804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1232
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396b6177618418800800000000000000
+      internalID: 612850285623555731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232666bcaa83085b0800000000000000
+      internalID: -5368228449617550798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1120
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995465e2450a31980800000000000000
+      internalID: -8569329382540819047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1120
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990b3e84fe16b5110800000000000000
+      internalID: 1250701001873404057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1120
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858d4a6c07f403490800000000000000
+      internalID: -7768622011426482088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1120
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fd642e2edf02430800000000000000
+      internalID: 3756281240127725367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1120
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30a0bac180832300800000000000000
+      internalID: 226165701238366269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1120
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839d27b8718b2e560800000000000000
+      internalID: 7341632753830648120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1120
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74c3405aa60407e0800000000000000
+      internalID: -1800306622480530307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac16ce5afb245330800000000000000
+      internalID: 3698629548309879973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1008
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d437c8b6b60f963b0800000000000000
+      internalID: -5518615524209298611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1008
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3807d0ffd22e99590800000000000000
+      internalID: -7666848203441082237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1008
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0f7879c47fbff60800000000000000
+      internalID: 8069315065696219351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1008
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea17e4f7c9878fc30800000000000000
+      internalID: 4393394050045997486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1008
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba3c103ad4e10ca0800000000000000
+      internalID: -6052304798448076103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1008
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193c4aee0b38c35a0800000000000000
+      internalID: -6540207762907544687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1008
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb22f1d19d2d8c060800000000000000
+      internalID: 6974055852921529019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78962f1a1959c6b20800000000000000
+      internalID: 3129040293835467143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528e5853b5ef79060800000000000000
+      internalID: 6960311416817838117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaaf85b50b00dce10800000000000000
+      internalID: 2219430948810324650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ce50f68be30f8c0800000000000000
+      internalID: -3967602309855843276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6432803d5989c6f90800000000000000
+      internalID: -6959019554936183994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_61
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574d711506f304cc0800000000000000
+      internalID: -3728910808552844171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca4255ccfaad3470800000000000000
+      internalID: 8376038884597975758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_63
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb2e8155d3ae6ed0800000000000000
+      internalID: -2418815813259744267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4477713de628fd0b0800000000000000
+      internalID: -5701695190728214716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 784
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90a1c1ae45ab62a0800000000000000
+      internalID: -6743114259917332326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_66
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 784
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a630468f41f809530800000000000000
+      internalID: 3859742200885937002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_67
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 784
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f82dc98ab49bbd0800000000000000
+      internalID: -2613974921154228397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 784
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4797696ab8444d5a0800000000000000
+      internalID: -6497492995802760844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_69
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 784
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2d9e25c2525e290800000000000000
+      internalID: -7861836702205488480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_70
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 784
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81eb8eaffbd87e870800000000000000
+      internalID: 8712087859859340824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_71
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 784
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152dd4b2dd8aef9c0800000000000000
+      internalID: -3891487360133770671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b350638e1bc3970800000000000000
+      internalID: 8736052988088761224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_73
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 672
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ca70b3553148d90800000000000000
+      internalID: -7096525856045552578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 672
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3986cb4dc66f3060800000000000000
+      internalID: 6935374983099484477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f574a547599fbe70800000000000000
+      internalID: 9133187169440265714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_76
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 672
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1d5b314bf99dd70800000000000000
+      internalID: 9068454920460816835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_77
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 672
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb48ccc6ecf7cb60800000000000000
+      internalID: 7766454150632065997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_78
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 672
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e520908fbb49edeb0800000000000000
+      internalID: -4693150226632342946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_79
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 672
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f3e58041889be50800000000000000
+      internalID: 6825636329877815197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ccb40abfd8719a0800000000000000
+      internalID: -6262380644969755617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 560
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b4bf8b98d36b7b0800000000000000
+      internalID: -5208908257284109433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 560
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eee5dc6151ab02b0800000000000000
+      internalID: -5617218739124179231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 560
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a443508a3272050800000000000000
+      internalID: 5775624251674741292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_84
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 560
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf36e2c92c1e22430800000000000000
+      internalID: 3756813265140605948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_85
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 560
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e45b021367d2760800000000000000
+      internalID: 7434728513232785010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_86
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 560
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ba16087348e5fc0800000000000000
+      internalID: -3504218086135714939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_87
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 560
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c36c5e5c25c27e80800000000000000
+      internalID: -8182260778626423863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45220a61f31c00920800000000000000
+      internalID: 2954573832261739092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cecbd8211cdeff80800000000000000
+      internalID: -8070771515943301439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_90
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4c8ff1f12fbfdf0800000000000000
+      internalID: -145256347465104170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_91
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8867e5200b2c040800000000000000
+      internalID: 4666485688130504954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_92
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af8fadc4cf6c8870800000000000000
+      internalID: 8686440672345952165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_93
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8313795f818bd50f0800000000000000
+      internalID: -1126541914433703624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_94
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a81684e9be4f22e0800000000000000
+      internalID: -2148411936922527577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_95
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 448
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4d46b0e125ce8d0800000000000000
+      internalID: -2815785378019748614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fd8b3a7e6b7e060800000000000000
+      internalID: 6982750853261745992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e493b31df860e10800000000000000
+      internalID: 2163574799802650266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3887cc7b122f50100800000000000000
+      internalID: 73731195552954499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_99
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8228e694bd812ceb0800000000000000
+      internalID: -4701167730912493016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_100
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 336
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb429db7e2851260800000000000000
+      internalID: 7067699122057399268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_101
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 336
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8554f0165ee7a940800000000000000
+      internalID: 5307472739298465164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_102
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 336
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e2705e6d24562d0800000000000000
+      internalID: -3286146862364021172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_103
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 336
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4be1fd4df54d8d40800000000000000
+      internalID: 5588199666873396042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f575242570e64bda0800000000000000
+      internalID: -5929993831616194721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_105
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7365435e686d140800000000000000
+      internalID: 4744127576465094560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c543563536d5d0e0800000000000000
+      internalID: -2245653315141286461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_107
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786b3268735dba150800000000000000
+      internalID: 5885031772540089991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_108
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 224
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360086c3451b472c0800000000000000
+      internalID: -4434724757704277917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_109
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 224
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ee5b1c60fb66ad0800000000000000
+      internalID: -2709268090076139925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_110
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 224
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05e27edea50e0dd0800000000000000
+      internalID: -2518068893039008502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_111
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 224
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1410af0a073796b0800000000000000
+      internalID: -5289698720972008417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af6d479ca6be61f0800000000000000
+      internalID: -1049700810741682264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b8e2347c82a1f80800000000000000
+      internalID: -8135144940600653045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_114
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469f7788ee33fe3d0800000000000000
+      internalID: -3175262112688113308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_115
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 112
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4644b002f37f890800000000000000
+      internalID: -7424396053836438357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_116
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 112
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e234efd0b000cbb0800000000000000
+      internalID: -4917930033418063134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_117
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 112
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b0083818e30cc80800000000000000
+      internalID: -8304568986893284537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_118
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 112
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15768f653a59d2870800000000000000
+      internalID: 8659742187274659665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_119
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 112
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a7f5005e8e66c40800000000000000
+      internalID: 5505343664758422078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9eddae8e0293410800000000000000
+      internalID: 1457232139175979507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_121
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f6820957e3db820800000000000000
+      internalID: 2935571206766096253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_122
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51fcbe0e849f4080800000000000000
+      internalID: -9200972175841103521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_123
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff3e50ea7dc93340800000000000000
+      internalID: 4844128801847656440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_124
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9785e404fc89923f0800000000000000
+      internalID: -925040232543397767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_125
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d1c0001c7ee38d0800000000000000
+      internalID: -2864597496845558492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_126
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675c4ee1343048840800000000000000
+      internalID: 5225305054472619382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building-2_127
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fca852d82045940800000000000000
+      internalID: 5283851068055932828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
