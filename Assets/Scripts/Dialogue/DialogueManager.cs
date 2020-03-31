@@ -7,7 +7,7 @@ public class DialogueManager : MonoBehaviour
 {
     private int charCountLimit = 20;
     
-    public static DialogueManager instance;
+    public static DialogueManager Instance;
 
     private GameTime gameTime;
 
@@ -17,7 +17,8 @@ public class DialogueManager : MonoBehaviour
 
     private GameObject dialoguePopup;
 
-    private bool isSpeaking = false;
+    public bool isSpeaking = false;
+    private bool frameBuffer = false;
 
     private DialogueTrigger context;
 
@@ -28,8 +29,8 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        if(instance == null) {
-            instance = this;
+        if(Instance == null) {
+            Instance = this;
         } else {
             Destroy(gameObject);
             return;
@@ -43,21 +44,30 @@ public class DialogueManager : MonoBehaviour
         bars = GameObject.Find("CinematicBars").GetComponent<CinematicBars>();
 
         sentences = new Queue<string>();
+
+        isSpeaking = false;
     }
 
     void Update() {
+
         if(isSpeaking) {
-            if(Input.GetButtonDown(("Interact"))) {
-                DisplayNextSentence();
-            }
+            if(frameBuffer == false)
+            {
+                frameBuffer = true;
+            } else
+            {
+                if (Input.GetButtonDown(("Interact")))
+                {
+                    //Debug.Log("Next sentence pls");
+                    DisplayNextSentence();
+                }
+            } 
         }
     }
 
     public void StartDialogue(Dialogue dialogue, GameObject popup, DialogueTrigger trigger) {
 
         DialogueCameraOn();
-
-        isSpeaking = true;
 
         dialoguePopup = popup;
         context = trigger;
@@ -78,14 +88,19 @@ public class DialogueManager : MonoBehaviour
         coroutineList = new List<Coroutine>();
 
         DisplayNextSentence();
+
     }
 
     public void DisplayNextSentence() {
+
         if(sentences.Count == 0) {
             EndDialogue();
             return;
         } else {
+            isSpeaking = true;
+
             string sentence = sentences.Dequeue();
+            Debug.Log(sentence);
             foreach(Coroutine c in coroutineList) {
                 StopCoroutine(c);
             }
@@ -122,7 +137,6 @@ public class DialogueManager : MonoBehaviour
     {
         for (float f = 0.0f; f <= 1f; f += 0.05f)
         {
-            Debug.Log(f);
             dialoguePopup.GetComponent<CanvasGroup>().alpha = f;
             yield return null;
         }
@@ -143,14 +157,12 @@ public class DialogueManager : MonoBehaviour
         gameTime.paused = true;
         bars.Show(Screen.height/4,0.4f);
         bars.StartCoroutine("ZoomIn");
-        //GameObject.Find("Black Bars").GetComponent<BlackBars>().MoveBarsIn();
-        
+       
     }
 
     void DialogueCameraOff() {
         gameTime.paused = false;
         bars.Hide(0.4f);
         bars.StartCoroutine("ZoomOut");
-        //GameObject.Find("Black Bars").GetComponent<BlackBars>().MoveBarsOut();
     }
 }

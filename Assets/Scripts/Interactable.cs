@@ -13,6 +13,7 @@ public class Interactable : MonoBehaviour
 {
 
     public float radius = 1f;
+    public Vector2 offset;
 
     bool isFocus = false;   // Is this interactable currently being focused?
     private Transform player;       // Reference to the player transform
@@ -31,12 +32,12 @@ public class Interactable : MonoBehaviour
         Vector2 whereToInstantiate = new Vector2(transform.position.x, transform.position.y + 1.5f);
 
         interactPopup = Instantiate(interactPrefab, transform);
-        interactPopup.transform.position = whereToInstantiate;
+        interactPopup.transform.position = whereToInstantiate + offset;
         interactPopup.GetComponent<CanvasGroup>().alpha = 0f;
     }
 
     public virtual void Update() {
-        float distance = Vector3.Distance(player.position, transform.position);
+        float distance = Vector3.Distance(player.position, transform.position + new Vector3(offset.x, offset.y, 0));
 
         if (distance <= radius )
         {
@@ -82,7 +83,7 @@ public class Interactable : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, radius);
+        Gizmos.DrawWireSphere(transform.position + new Vector3(offset.x, offset.y,0), radius);
     }
 
     IEnumerator InteractPromptFadeIn()

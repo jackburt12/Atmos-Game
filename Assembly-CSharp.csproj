@@ -64,6 +64,8 @@
   <ItemGroup>
     <Compile Include="Assets\Audio\AudioManager.cs" />
     <Compile Include="Assets\Audio\Sound.cs" />
+    <Compile Include="Assets\CurrencyManager.cs" />
+    <Compile Include="Assets\FoodShop.cs" />
     <Compile Include="Assets\Scripts\CinematicBars.cs" />
     <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
@@ -81,7 +83,10 @@
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Smoker.cs" />
     <Compile Include="Assets\Scripts\Systems\GameTime.cs" />
+    <Compile Include="Assets\Scripts\Systems\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Systems\Inventory\Items\Item.cs" />
     <Compile Include="Assets\Scripts\Systems\PauseMenu.cs" />
+    <Compile Include="Assets\Shop.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -115,6 +120,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Train.cs" />
+    <Compile Include="Assets\TrainCarriage.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

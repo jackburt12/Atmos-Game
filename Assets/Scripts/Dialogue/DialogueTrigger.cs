@@ -11,6 +11,8 @@ public class DialogueTrigger : MonoBehaviour
     private GameObject dialoguePrefab;
     private GameObject dialoguePopup;
 
+    private bool offsetDialogue = false;
+
     void Awake() {
         //instance = DialogueManager.instance;
         instance = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
@@ -25,8 +27,13 @@ public class DialogueTrigger : MonoBehaviour
         dialoguePopup.GetComponent<CanvasGroup>().alpha = 0f;
     }
 
-    public void TriggerDialogue() {
-        Debug.Log("Speaking to " + gameObject.name);
+    public void TriggerDialogue(Vector2 offset)
+    {
+        if(!offsetDialogue)
+        {
+            dialoguePopup.transform.position += new Vector3(offset.x, offset.y);
+            offsetDialogue = true;
+        }
         instance.StartDialogue(dialogue, dialoguePopup, this);
     }
 }

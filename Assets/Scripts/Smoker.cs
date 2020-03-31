@@ -31,6 +31,6 @@ public class Smoker : Interactable
     public override void Interact()
     {
         base.Interact();
-        gameObject.GetComponent<DialogueTrigger>().TriggerDialogue();
+        gameObject.GetComponent<DialogueTrigger>().TriggerDialogue(offset);
     }
 }

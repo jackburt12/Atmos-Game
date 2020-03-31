@@ -12,8 +12,8 @@ public class LightManager : MonoBehaviour
 
     Color globalNight = new Color(0.7f, 0.75f, 1f, 1f);
     Color globalDay = new Color(1f,1f,1f,1f);
-    float globalNightIntensity = 0.5f;
-    float globalDayIntensity = 1.5f;
+    float globalNightIntensity = 0.35f;
+    float globalDayIntensity = 1f;
 
 
     UnityEngine.Experimental.Rendering.Universal.Light2D globalLight;
