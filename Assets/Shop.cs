@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class Shop : Interactable
 {
-    List<Item> shopInventory;
+    public List<Item> shopInventory;
+
+    public GameObject shopWindow;
 
     bool isFirstTime = true;
+
+    bool dialogueFinished = false;
+
+    DialogueManager instance;
 
     //// Start is called before the first frame update
     //void Start()
@@ -26,9 +32,36 @@ public class Shop : Interactable
 
         if(isFirstTime)
         {
-            gameObject.GetComponent<DialogueTrigger>().TriggerDialogue(offset);
+            StartCoroutine("Dialogue");
+        } else
+        {
+            OpenShop();
         }
 
-        GameObject.Find("Shop Window").SetActive(true);
+        
     }
+
+    IEnumerator Dialogue ()
+    {
+        gameObject.GetComponent<DialogueTrigger>().TriggerDialogue(offset);
+        isFirstTime = false;
+
+        instance = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
+
+        while (instance.isSpeaking)
+        {
+            yield return null;
+        }
+
+        OpenShop();
+    }
+
+    public void OpenShop()
+    {
+        
+        shopWindow.GetComponent<ShopInventory>().PopulateShop(shopInventory);
+        shopWindow.SetActive(true);
+
+    }
+
 }

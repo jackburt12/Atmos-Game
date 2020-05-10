@@ -19,8 +19,6 @@ public class TrashCan : Interactable
     public override void Interact()
     {
         base.Interact();
-
-        Debug.Log("Interacted with trashcan");
     }
 
 }

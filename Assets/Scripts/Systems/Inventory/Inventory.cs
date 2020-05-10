@@ -9,10 +9,10 @@ public class Inventory : MonoBehaviour
     public delegate void OnItemChanged();
     public OnItemChanged onItemChangedCallback;
 
-    public int space = 10;  // Amount of item spaces
-
     // Our current list of items in the inventory
-    public List<Item> items = new List<Item>();
+    public List<Item> items;
+
+    private ItemDatabase db;
 
 
     void Awake()
@@ -21,37 +21,109 @@ public class Inventory : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+
+            LoadInventory();
+            db = ItemDatabase.Load("XML/items");
         }
         else
         {
             Destroy(gameObject);
         }
+
     }
 
-    // Start is called before the first frame update
-    public void Add(Item item)
+    private void Update()
     {
-        if(item.showInInventory)
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            if(items.Count >= space)
-            {
-                Debug.Log("Not enough room");
-                return;
-            }
-
-            items.Add(item);
-
-            if (onItemChangedCallback != null)
-                onItemChangedCallback.Invoke();
+            ResetInventory();
         }
     }
 
-    // Update is called once per frame
-    public void Remove(Item item)
+    // Start is called before the first frame update
+    public void Add(int itemId)
     {
-        items.Remove(item);
+        int index = items.FindIndex(i => i.id == itemId);
 
-        if (onItemChangedCallback != null)
-            onItemChangedCallback.Invoke();
+        if (index >= 0)
+        {
+            //items[index].amount += 1;
+        }
+        else
+        {
+            Item item = db.items.Find(obj => obj.id == itemId);
+            item.amount = 1;
+            items.Add(item);
+        }
+
+        //if (onItemChangedCallback != null)
+        //    onItemChangedCallback.Invoke();
+
+
+    }
+
+    // Update is called once per frame
+    public void Remove(int itemId)
+    {
+        //Debug.Log("ItemID: " + itemId);
+        //int index = items.FindIndex(i => i.id == itemId);
+        //Debug.Log("Index: " + index);
+
+        //Debug.Log("items[index].amount before: " + items[index].amount);
+        //items[index].amount -= 1;
+        //Debug.Log("items[index].amount after: " + items[index].amount);
+        //if (items[index].amount <= 0)
+        //{
+        //    items.Remove(items[index]);
+        //}
+
+        //foreach(Item item in items)
+        //{
+        //    if(item.amount <= 0)
+        //    {
+        //        items.Remove(item);
+        //    }
+        //}
+
+        //if (onItemChangedCallback != null)
+        //    onItemChangedCallback.Invoke();
+    }
+
+    public void SaveInventory()
+    {
+        SaveSystem.SaveInventory(this);
+        //LoadInventory();
+    }
+
+    public void LoadInventory()
+    {
+        InventoryData data = SaveSystem.LoadInventory();
+
+        ItemDatabase db = ItemDatabase.Load("XML/items");
+
+        items = new List<Item>();
+
+        for (int i = 0; i < data.itemId.Length; i++)
+        {
+            Item item = db.items.Find(obj => obj.id == data.itemId[i]);
+            item.amount = data.itemAmount[i];
+
+            if(item.amount > 0)
+            {
+                items.Add(item);
+            }
+        }
+    }
+
+    public void ResetInventory()
+    {
+        
+
+        items = new List<Item>();
+        //items.Add(db.items.Find(obj => obj.id == 1));
+        //items[0].amount = 3;
+        //items.Add(db.items.Find(obj => obj.id == 3));
+        //items[1].amount = 1;
+        SaveInventory();
     }
 }

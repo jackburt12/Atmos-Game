@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Diagnostics;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -100,8 +101,8 @@ public class DialogueManager : MonoBehaviour
             isSpeaking = true;
 
             string sentence = sentences.Dequeue();
-            Debug.Log(sentence);
-            foreach(Coroutine c in coroutineList) {
+
+            foreach (Coroutine c in coroutineList) {
                 StopCoroutine(c);
             }
             coroutineList.Add(StartCoroutine(TypeSentance(sentence)));
@@ -131,6 +132,7 @@ public class DialogueManager : MonoBehaviour
         isSpeaking = false;
         StartCoroutine("DialoguePromptFadeOut");
         DialogueCameraOff();
+
     }
 
     IEnumerator DialoguePromptFadeIn()

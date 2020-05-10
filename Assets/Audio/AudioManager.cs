@@ -117,7 +117,7 @@ public class AudioManager : MonoBehaviour
 
     public IEnumerator PlayMusic() {
 
-        songNumber = 0;
+        songNumber = UnityEngine.Random.Range(0,music.Length);
         
         while(musicEnabled) {
             Sound song = music[songNumber];

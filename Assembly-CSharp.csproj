@@ -64,7 +64,6 @@
   <ItemGroup>
     <Compile Include="Assets\Audio\AudioManager.cs" />
     <Compile Include="Assets\Audio\Sound.cs" />
-    <Compile Include="Assets\CurrencyManager.cs" />
     <Compile Include="Assets\FoodShop.cs" />
     <Compile Include="Assets\Scripts\CinematicBars.cs" />
     <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
@@ -80,13 +79,21 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterController2D.cs" />
+    <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerData.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Smoker.cs" />
     <Compile Include="Assets\Scripts\Systems\GameTime.cs" />
     <Compile Include="Assets\Scripts\Systems\Inventory\Inventory.cs" />
-    <Compile Include="Assets\Scripts\Systems\Inventory\Items\Item.cs" />
+    <Compile Include="Assets\Scripts\Systems\Inventory\InventoryData.cs" />
+    <Compile Include="Assets\Scripts\Systems\Inventory\Item.cs" />
+    <Compile Include="Assets\Scripts\Systems\Inventory\ItemDatabase.cs" />
+    <Compile Include="Assets\Scripts\Systems\Inventory\ItemParsed.cs" />
     <Compile Include="Assets\Scripts\Systems\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Systems\Saving\SaveSystem.cs" />
     <Compile Include="Assets\Shop.cs" />
+    <Compile Include="Assets\ShopInventory.cs" />
+    <Compile Include="Assets\ShopItem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -132,6 +139,7 @@
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Resources\XML\items.xml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
