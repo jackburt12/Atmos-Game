@@ -10,35 +10,20 @@ public class Shop : Interactable
 
     bool isFirstTime = true;
 
-    bool dialogueFinished = false;
-
     DialogueManager instance;
-
-    //// Start is called before the first frame update
-    //void Start()
-    //{
-        
-    //}
-
-    //// Update is called once per frame
-    //void Update()
-    //{
-        
-    //}
 
     public override void Interact()
     {
         base.Interact();
 
-        if(isFirstTime)
+        if (isFirstTime)
         {
             StartCoroutine("Dialogue");
-        } else
+        }
+        else
         {
             OpenShop();
-        }
-
-        
+        }        
     }
 
     IEnumerator Dialogue ()
@@ -61,6 +46,8 @@ public class Shop : Interactable
         
         shopWindow.GetComponent<ShopInventory>().PopulateShop(shopInventory);
         shopWindow.SetActive(true);
+
+        GameTime.instance.paused = true;
 
     }
 

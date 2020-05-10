@@ -53,6 +53,14 @@ public class ShopInventory : MonoBehaviour
         totalMoney.GetComponent<Text>().text = Player.Instance.money.ToString("C", CultureInfo.CurrentCulture);
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            CloseShop();
+        }
+    }
+
     public void BuyItem (ShopItem shopItem)
     {
         //decrease number in BuyWindow
@@ -169,7 +177,6 @@ public class ShopInventory : MonoBehaviour
             throw ex;
         }
 
-
         CloseShop();
 
     }
@@ -177,6 +184,7 @@ public class ShopInventory : MonoBehaviour
     public void CloseShop()
     {
         gameObject.SetActive(false);
+        GameTime.instance.paused = false;
     }
 
 

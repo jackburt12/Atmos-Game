@@ -36,8 +36,6 @@ public class DialogueManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
-        DontDestroyOnLoad(gameObject);
     }
 
     void Start() {

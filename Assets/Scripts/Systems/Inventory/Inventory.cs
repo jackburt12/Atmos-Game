@@ -56,37 +56,12 @@ public class Inventory : MonoBehaviour
             items.Add(item);
         }
 
-        //if (onItemChangedCallback != null)
-        //    onItemChangedCallback.Invoke();
-
-
     }
 
     // Update is called once per frame
     public void Remove(int itemId)
     {
-        //Debug.Log("ItemID: " + itemId);
-        //int index = items.FindIndex(i => i.id == itemId);
-        //Debug.Log("Index: " + index);
 
-        //Debug.Log("items[index].amount before: " + items[index].amount);
-        //items[index].amount -= 1;
-        //Debug.Log("items[index].amount after: " + items[index].amount);
-        //if (items[index].amount <= 0)
-        //{
-        //    items.Remove(items[index]);
-        //}
-
-        //foreach(Item item in items)
-        //{
-        //    if(item.amount <= 0)
-        //    {
-        //        items.Remove(item);
-        //    }
-        //}
-
-        //if (onItemChangedCallback != null)
-        //    onItemChangedCallback.Invoke();
     }
 
     public void SaveInventory()

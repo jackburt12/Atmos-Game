@@ -42,8 +42,6 @@ public class LightManager : MonoBehaviour
             return;
         }
 
-        DontDestroyOnLoad(gameObject);
-
         gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
 
         globalLight = gameObject.GetComponent<UnityEngine.Experimental.Rendering.Universal.Light2D>();

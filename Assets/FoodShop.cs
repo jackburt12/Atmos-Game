@@ -30,7 +30,6 @@ public class FoodShop : Shop
         shopInventory.Add(db.items.Find(obj => obj.id == 153));
         shopInventory.Add(db.items.Find(obj => obj.id == 154));
 
-
         foreach (Item item in shopInventory)
         {
             item.amount = 5;
