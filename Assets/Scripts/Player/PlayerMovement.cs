@@ -13,16 +13,10 @@ public class PlayerMovement : MonoBehaviour
     private bool jump = false;
     private bool crouch = false;
 
-    private GameTime gameTime;
-
-    void Start() {
-        gameTime = GameObject.Find("GameManager").GetComponent<GameTime>();
-    }
-
     // Update is called once per frame
     void Update()
     {
-        if(!gameTime.paused) {
+        if(!DialogueManager.Instance.isSpeaking) {
             horizontalVelocity = Input.GetAxisRaw("Horizontal") * runSpeed;
 
             if (Input.GetButtonDown("Jump")) {

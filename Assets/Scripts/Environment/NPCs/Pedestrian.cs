@@ -67,7 +67,7 @@ public class Pedestrian : MonoBehaviour
     }
 
     void GhostSprite() {
-        gameObject.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,0.4f);
+        gameObject.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,0.15f);
         gameObject.transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,0.4f);
     }
 

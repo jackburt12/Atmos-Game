@@ -49,11 +49,13 @@ MonoBehaviour:
   m_Color: {r: 0.6510324, g: 0.8217182, b: 0.8962264, a: 1}
   m_Intensity: 0.5
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 000000008b3e894fc1a73c6a97b35ba4137ed829453e04c77f08a51f
+  m_ApplyToSortingLayers: 000000008b3e894fc1a73c6a97b35ba4137ed829453e04c77f08a51fa7b79f6e
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 22
   m_PointLightOuterAngle: 180
   m_PointLightInnerRadius: 4.15
@@ -122,6 +124,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -280,11 +283,13 @@ MonoBehaviour:
   m_Color: {r: 0.6510324, g: 0.8217182, b: 0.8962264, a: 1}
   m_Intensity: 0.5
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 000000008b3e894fc1a73c6a97b35ba4137ed829453e04c77f08a51f
+  m_ApplyToSortingLayers: 000000008b3e894fc1a73c6a97b35ba4137ed829453e04c77f08a51fa7b79f6e
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 22
   m_PointLightOuterAngle: 180
   m_PointLightInnerRadius: 4.15
@@ -350,11 +355,13 @@ MonoBehaviour:
   m_Color: {r: 0.6510324, g: 0.8217182, b: 0.8962264, a: 1}
   m_Intensity: 0.5
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 000000008b3e894fc1a73c6a97b35ba4137ed829453e04c77f08a51f
+  m_ApplyToSortingLayers: 000000008b3e894fc1a73c6a97b35ba4137ed829453e04c77f08a51fa7b79f6e
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 22
   m_PointLightOuterAngle: 180
   m_PointLightInnerRadius: 4.15
@@ -420,11 +427,13 @@ MonoBehaviour:
   m_Color: {r: 0.8962264, g: 0.37683147, b: 0.31283376, a: 1}
   m_Intensity: 1.37
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 000000008b3e894fc1a73c6a97b35ba4137ed829453e04c77f08a51f
+  m_ApplyToSortingLayers: 000000008b3e894fc1a73c6a97b35ba4137ed829453e04c77f08a51fa7b79f6e
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -490,11 +499,13 @@ MonoBehaviour:
   m_Color: {r: 0.6510324, g: 0.8217182, b: 0.8962264, a: 1}
   m_Intensity: 0.5
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 000000008b3e894fc1a73c6a97b35ba4137ed829453e04c77f08a51f
+  m_ApplyToSortingLayers: 000000008b3e894fc1a73c6a97b35ba4137ed829453e04c77f08a51fa7b79f6e
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 22
   m_PointLightOuterAngle: 180
   m_PointLightInnerRadius: 4.15

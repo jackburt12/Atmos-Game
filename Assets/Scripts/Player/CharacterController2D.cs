@@ -110,8 +110,16 @@ public class CharacterController2D : MonoBehaviour
 			// And then smoothing it out and applying it to the character
 			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
-			// If the input is moving the player right and the player is facing left...
-			if (move > 0 && !m_FacingRight)
+            if(Mathf.Abs(m_Rigidbody2D.velocity.x) > 0.5)
+            {
+                gameObject.GetComponent<Animator>().SetBool("Walking", true);
+            } else
+            {
+                gameObject.GetComponent<Animator>().SetBool("Walking", false);
+            }
+
+            // If the input is moving the player right and the player is facing left...
+            if (move > 0 && !m_FacingRight)
 			{
 				// ... flip the player.
 				Flip();
